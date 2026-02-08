@@ -36,4 +36,4 @@
 403 Forbidden 權限格式修正： 經確認此 API 之 Cookie 認證格式要求嚴格，需精準設定為 Cookie: token={{accessToken}}。若缺少 token= 前綴字串，伺服器將無法識別身分並拒絕存取。此步驟強化了對不同 API 認證協議（Authentication Protocols）規範的理解。
 
 標頭 (Headers) 的嚴謹性： 在 PUT 請求實作中，除了權限驗證外，需確保 Content-Type: application/json 正確設定。雖然現代測試工具（如 Postman）在特定設定下會自動處理，但為確保腳本在不同環境與框架下的穩定性，明確宣告標頭為必要實踐。
-![Test Runner Result](./RESTful API CRUD.png)
+![Test Runner Result](./api_test_results.png)
